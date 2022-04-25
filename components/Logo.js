@@ -6,7 +6,7 @@ export function Logo(props) {
   return (
     <header>
       <h1 id={`pokemon${props.id}`}>
-        Welcome to the {props.appName} {props.familyName} and have an age of{" "}
+        Welcome to the {props.appName} {props.familyName} with an age of{" "}
         {props.age + 5}
       </h1>
       <img
