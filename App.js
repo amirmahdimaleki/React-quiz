@@ -9,9 +9,10 @@ const date = new Date().toLocaleDateString();
 
 function App() {
   const familyName = "maleki";
+  const name1 = "pokedex"
   return (
     <div>
-      <Logo familyName={familyName} id={5} age={17} appName={Pokedex} />
+      <Logo familyName={familyName} id={5} age={17} appName={name1} />
       <BestPokemon ability={abilities}/>
       <CaughtPokemon date={date} />
       <HelloAPS />
